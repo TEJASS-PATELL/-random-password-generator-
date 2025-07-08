@@ -52,6 +52,7 @@ body{
     border: 0;
     padding: 16px 26px;
     font-size: 22px;
+    transition: transform 0.5s ease-in-out;
     font-weight: 300;
     border-radius: 5px;
     cursor: pointer;
@@ -74,6 +75,10 @@ body{
   width: 30px;
   height: 30px;
   transition: transform 0.2s ease;
+}
+
+.buttonn:hover {
+  transform: scale(1.05);
 }
 
 .button:hover {
